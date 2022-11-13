@@ -1,0 +1,16 @@
+{
+  "base": {
+    "project": "habr-diploma",
+    "environment": "${hostDevice}",
+    "comment": "GoodTest",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "5469973761:AAGCcpzaSLL1JGDOph_Aps6PkqDwu73mN2g",
+    "chat": "-1001783488393",
+    "replyTo": ""
+  }
+}
