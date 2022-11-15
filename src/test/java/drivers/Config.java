@@ -3,7 +3,7 @@ package drivers;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties
-@org.aeonbits.owner.Config.Sources({"classpath:${device_host}.properties"})
+@org.aeonbits.owner.Config.Sources({"classpath:${os}.properties"})
 public interface Config extends org.aeonbits.owner.Config {
 @Key("browserstack.user")
     String getBrowserstackUser();
