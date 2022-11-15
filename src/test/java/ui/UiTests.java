@@ -1,6 +1,5 @@
 package ui;
 
-import api.TestBase;
 import io.qameta.allure.AllureId;
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;
@@ -62,7 +61,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12677")
     @DisplayName("Login aleksei.perchukov@gmail.com account")
-    @Tags({@Tag("User"), @Tag("Desktop"), @Tag("UI"), @Tag("UI")})
+    @Tags({@Tag("User"), @Tag("Desktop"), @Tag("UI")})
     @Owner("allure8")
     public void loginTest() {
         openHomePage();
