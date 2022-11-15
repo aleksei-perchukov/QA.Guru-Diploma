@@ -17,7 +17,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12678")
     @DisplayName("All Habr services menu appearance")
-    @Tags({@Tag("Desktop"), @Tag("Menu")})
+    @Tags({@Tag("Desktop"), @Tag("Menu"), @Tag("UI")})
     @Owner("allure8")
     public void habrServicesMenuTest() {
         openHomePage();
@@ -28,7 +28,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12679")
     @DisplayName("Change website language to EN, then to RU")
-    @Tags({@Tag("Desktop"), @Tag("Main"), @Tag("Settings")})
+    @Tags({@Tag("Desktop"), @Tag("Main"), @Tag("Settings"), @Tag("UI")})
     @Owner("allure8")
     public void changeLanguagesTest() {
         openHomePage();
@@ -49,7 +49,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12676")
     @DisplayName("Create user")
-    @Tags({@Tag("User"), @Tag("Desktop")})
+    @Tags({@Tag("User"), @Tag("Desktop"), @Tag("UI"), @Tag("UI")})
     @Owner("allure8")
     public void createUserTest() {
 
@@ -62,7 +62,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12677")
     @DisplayName("Login aleksei.perchukov@gmail.com account")
-    @Tags({@Tag("User"), @Tag("Desktop")})
+    @Tags({@Tag("User"), @Tag("Desktop"), @Tag("UI"), @Tag("UI")})
     @Owner("allure8")
     public void loginTest() {
         openHomePage();
@@ -78,7 +78,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12675")
     @DisplayName("Quantity of search results is 20")
-    @Tags({@Tag("Desktop"), @Tag("Search")})
+    @Tags({@Tag("Desktop"), @Tag("Search"), @Tag("UI")})
     @Owner("allure8")
     public void searchResultsQtyTest() {
         openHomePage();
@@ -91,7 +91,7 @@ public class UiTests extends TestBase {
     @Test
     @AllureId("12674")
     @DisplayName("Search article 'Tutorial: Frontity — Setting Up Authorization for WordPress Private Endpoints'")
-    @Tags({@Tag("Desktop"), @Tag("Search")})
+    @Tags({@Tag("Desktop"), @Tag("Search"), @Tag("UI")})
     @Owner("allure8")
     public void searchArticleTest() {
         openHomePage();
