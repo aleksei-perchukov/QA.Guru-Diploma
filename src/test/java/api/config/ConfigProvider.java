@@ -5,7 +5,7 @@ import io.restassured.RestAssured;
 import org.aeonbits.owner.ConfigFactory;
 
 public class ConfigProvider {
-    public static boolean isRemote = false;
+    public static String isRemote = "false";
 
     public ConfigProvider setConfiguration() {
         Config config = ConfigFactory.create(Config.class, System.getProperties());

@@ -20,7 +20,7 @@ public class TestBase {
         ConfigProvider config = new ConfigProvider();
         config.setConfiguration();
         baseURI = "https://habr.com/ru/all/";
-        if (ConfigProvider.isRemote) {
+        if (ConfigProvider.isRemote.equals("true")) {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
         }
@@ -37,7 +37,7 @@ public class TestBase {
             Attach.pageSource();
             Attach.browserConsoleLogs();
         }
-        if (ConfigProvider.isRemote) {
+        if (ConfigProvider.isRemote.equals("true")) {
             Attach.videoLocal();
         }
     }

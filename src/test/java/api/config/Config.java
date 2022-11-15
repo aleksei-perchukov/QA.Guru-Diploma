@@ -3,7 +3,7 @@ package api.config;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties
-@org.aeonbits.owner.Config.Sources({"classpath:${DEVICE_HOST}.properties"})
+@org.aeonbits.owner.Config.Sources({"classpath:${device_host}.properties"})
 public interface Config extends org.aeonbits.owner.Config {
 @Key("browserName")
     String getBrowserName();
@@ -18,5 +18,5 @@ public interface Config extends org.aeonbits.owner.Config {
 @Key("remoteUrl")
     String getRemoteUrl();
 @Key("isRemote")
-    Boolean getIsRemote();
+    String getIsRemote();
 }
