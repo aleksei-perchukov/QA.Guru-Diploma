@@ -19,9 +19,6 @@ public class SearchTests extends TestBase {
     @Severity(SeverityLevel.CRITICAL)
     @DisplayName("Search header appearing check")
     void searchTest() {
-        $(AppiumBy.accessibilityId("Search")).click();
-        $(AppiumBy.className("android.widget.EditText")).sendKeys("test");
-        $(AppiumBy.accessibilityId("Поиск")).click();
-        $(AppiumBy.accessibilityId("Search test")).exists();
+
     }
 }
