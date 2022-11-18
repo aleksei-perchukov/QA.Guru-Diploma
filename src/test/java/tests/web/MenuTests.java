@@ -13,7 +13,7 @@ public class MenuTests extends TestBase {
     @Test
     @AllureId("12678")
     @DisplayName("All Habr services menu appearance")
-    @Tags({@Tag("Desktop"), @Tag("Menu"), @Tag("UI")})
+    @Tags({@Tag("Desktop"), @Tag("Menu"), @Tag("WEB")})
     @Owner("allure8")
     public void habrServicesMenuTest() {
         openHomePage();

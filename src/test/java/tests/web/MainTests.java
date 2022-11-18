@@ -14,7 +14,7 @@ public class MainTests extends TestBase {
     @Test
     @AllureId("12679")
     @DisplayName("Change website language to EN, then to RU")
-    @Tags({@Tag("Desktop"), @Tag("Main"), @Tag("Settings"), @Tag("UI")})
+    @Tags({@Tag("Desktop"), @Tag("Main"), @Tag("Settings"), @Tag("WEB")})
     @Owner("allure8")
     public void changeLanguagesTest() {
         openHomePage();
@@ -35,7 +35,7 @@ public class MainTests extends TestBase {
     @Test
     @AllureId("12676")
     @DisplayName("Clicking on author shows posts with his articles")
-    @Tags({@Tag("Main"), @Tag("Desktop"), @Tag("UI"), @Tag("UI")})
+    @Tags({@Tag("Main"), @Tag("Desktop"), @Tag("UI"), @Tag("WEB")})
     @Owner("allure8")
     public void createUserTest() {
         openHomePage();

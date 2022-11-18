@@ -85,7 +85,7 @@ test {
 
 task ui_tests(type: Test) {
     useJUnitPlatform {
-        includeTags "UI"
+        includeTags "WEB"
     }
 }
 
@@ -97,7 +97,7 @@ task api_tests(type: Test) {
 
 task ui_api_tests(type: Test) {
     useJUnitPlatform {
-        includeTags "UI", "API"
+        includeTags "WEB", "API"
     }
 }
 

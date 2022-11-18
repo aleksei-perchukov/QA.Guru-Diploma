@@ -15,7 +15,7 @@ public class SearchTests extends TestBase {
     @Test
     @AllureId("12674")
     @DisplayName("Search article 'Tutorial: Frontity — Setting Up Authorization for WordPress Private Endpoints'")
-    @Tags({@Tag("Desktop"), @Tag("Search"), @Tag("UI")})
+    @Tags({@Tag("Desktop"), @Tag("Search"), @Tag("WEB")})
     @Owner("allure8")
     public void searchArticleTest() {
         openHomePage();
@@ -30,7 +30,7 @@ public class SearchTests extends TestBase {
     @Test
     @AllureId("12675")
     @DisplayName("Quantity of search results is 20")
-    @Tags({@Tag("Desktop"), @Tag("Search"), @Tag("UI")})
+    @Tags({@Tag("Desktop"), @Tag("Search"), @Tag("WEB")})
     @Owner("allure8")
     public void searchResultsQtyTest() {
         openHomePage();

@@ -16,7 +16,7 @@ public class UserTests extends TestBase {
     @Test
     @AllureId("12677")
     @DisplayName("Login aleksei.perchukov@gmail.com account")
-    @Tags({@Tag("User"), @Tag("Desktop"), @Tag("UI")})
+    @Tags({@Tag("User"), @Tag("Desktop"), @Tag("WEB")})
     @Owner("allure8")
     public void loginTest() {
         openHomePage();
