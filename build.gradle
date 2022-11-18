@@ -47,7 +47,8 @@ dependencies {
             'org.junit.jupiter:junit-jupiter:5.9.0',
             'org.aeonbits.owner:owner:1.0.12',
             "commons-io:commons-io:$commonsIoVersion",
-            'com.github.javafaker:javafaker:1.0.2'
+            'com.github.javafaker:javafaker:1.0.2',
+            'org.jsoup:jsoup:1.15.3'
     )
     testRuntimeOnly('org.aspectj:aspectjweaver:1.9.9.1')
 }
