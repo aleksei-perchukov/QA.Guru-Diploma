@@ -113,7 +113,7 @@ public class ReqresInTests {
     @DisplayName("Delete user test")
     @Tags({@Tag("User"), @Tag("Desktop")})
     @Owner("allure8")
-    void delete() {
+    void deleteUser() {
         step("Delete user and check 204 http-status returned", () -> {
             given()
                     .spec(requestSpecification)
