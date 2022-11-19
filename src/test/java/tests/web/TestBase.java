@@ -5,13 +5,15 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import helpers.Attach;
+import io.qameta.allure.Step;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class TestBase {
-    @DisplayName("Browser configuration")
+
     @BeforeAll
+    @Step("Browser configuration")
     static void configure() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         Configuration.browserCapabilities = capabilities;
@@ -24,14 +26,16 @@ public class TestBase {
             capabilities.setCapability("enableVideo", true);
         }
     }
-    @DisplayName("Adding Allure Listener (Configuration)")
+
     @BeforeEach
+    @Step("Adding Allure Listener")
     void addAllureListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
 
-    @DisplayName("Adding Attachments to Allure report")
+
     @AfterEach
+    @Step("Adding Attachments to Allure report")
     void addAttachments() {
         Attach.screenshotAs("Screenshot");
         if ((Configuration.browser).equals("chrome")) {
@@ -42,11 +46,5 @@ public class TestBase {
             Attach.videoLocal();
         }
         WebDriverRunner.closeWebDriver();
-    }
-
-    @DisplayName("Finished!")
-    @AfterAll
-    static void afterAll() {
-        System.out.println("All web tests have been performed.");
     }
 }

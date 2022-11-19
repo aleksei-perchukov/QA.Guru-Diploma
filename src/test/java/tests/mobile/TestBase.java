@@ -48,8 +48,4 @@ public class TestBase {
         }
     }
 
-    @AfterAll
-    static void afterAll() {
-        System.out.println("All mobile tests have been performed.");
-    }
 }
