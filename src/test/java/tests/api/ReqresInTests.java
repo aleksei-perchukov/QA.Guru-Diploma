@@ -79,8 +79,8 @@ public class ReqresInTests {
     }
 
     @Test
-    @AllureId("12688")
-    @DisplayName("Register user test - unsuccessful")
+    @AllureId("12686")
+    @DisplayName("Put update test")
     @Tags({@Tag("Desktop"), @Tag("Main"), @Tag("Settings")})
     @Owner("allure8")
     void putUpdate() {
