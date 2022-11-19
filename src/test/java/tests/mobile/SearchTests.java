@@ -1,5 +1,6 @@
 package tests.mobile;
 
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.WebDriverRunner;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
@@ -27,10 +28,8 @@ public class SearchTests extends TestBase {
         step("Enter Test in search field", () ->
                 $(AppiumBy.className("android.widget.EditText")).sendKeys("Test"));
         step("Click on Perform Search button", () ->
-                $(AppiumBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout" +
-                        "/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout" +
-                        "/android.view.View/android.view.View/android.view.View/android.view.View" +
-                        "/android.view.View[2]/android.widget.EditText/android.view.View[1]")).click());
+                $(AppiumBy.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.EditText/android.view.View[1]")).click());
+        Selenide.sleep(2000);
         step("Check that first articles name have word Test", () -> {
             String assertText = $$(AppiumBy.className("android.view.View")).get(5).getAttribute("content-desc");
             System.out.println(assertText);
