@@ -37,10 +37,12 @@
 > - Поиск курса;
 > - Запись на курс;
 
-## <img width="4%" title="Jenkins" src="img/logo/Jenkins.svg"> Запуск тестов из Jenkins: [Browserstack] (https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/) & [Desktop] (https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/)
-
-Для запуска тестов из Jenkins:
-Необходимо нажать кнопку "Собрать сейчас".
+## <img width="4%" title="Jenkins" src="img/logo/Jenkins.svg"> Запуск тестов из Jenkins: 
+<h3><a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack job</a><p></h2> 
+<h3><a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>Desktop job</a></h2>
+<p>Для запуска тестов из Jenkins:
+<br>Необходимо нажать кнопку "Собрать сейчас".
+<br>
 <img src="img/screen/Jenkins-run.jpg" alt="Jenkins"/>
 
 ## Запуск тестов из терминала
@@ -72,7 +74,7 @@ gradle clean mobile_test -Dos=mobile-real
 
 ## Отчеты о прохождении тестов доступны в Allure
 
-### <img width="3%" title="Allure" src="img/logo/Allure.jpg"> Allure
+### <img width="3%" title="Allure" src="img/logo/Allure.svg"> Allure
 
 #### Главная страница
 
