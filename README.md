@@ -38,8 +38,8 @@
 > - Запись на курс;
 
 ## <img width="4%" title="Jenkins" src="img/logo/Jenkins.svg"> Запуск тестов из Jenkins: 
-<h3><a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack job</a><p></h2> 
-<h3><a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>Desktop job</a></h2>
+<h3><a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack jenkins job link</a></h3> 
+<h3><a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>Desktop jenkins job link</a></h3>
 <p>Для запуска тестов из Jenkins:
 <br>Необходимо нажать кнопку "Собрать сейчас".
 <br>
