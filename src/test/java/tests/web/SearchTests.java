@@ -11,6 +11,7 @@ import static tests.web.TestData.searchArticle;
 import static tests.web.TestData.searchText;
 import static tests.web.WebSteps.*;
 
+@DisplayName("WEB - Search tests")
 public class SearchTests extends TestBase {
     @Test
     @AllureId("12674")

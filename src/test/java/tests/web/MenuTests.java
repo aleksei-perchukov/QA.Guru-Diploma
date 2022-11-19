@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import static tests.web.WebSteps.*;
 
+@DisplayName("WEB - Menu tests")
 public class MenuTests extends TestBase {
     @Test
     @AllureId("12678")

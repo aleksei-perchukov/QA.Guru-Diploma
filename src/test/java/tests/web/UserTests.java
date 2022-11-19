@@ -10,8 +10,8 @@ import org.junit.jupiter.api.Test;
 import static tests.web.TestData.*;
 import static tests.web.WebSteps.*;
 
+@DisplayName("WEB - User tests")
 public class UserTests extends TestBase {
-
 
     @Test
     @AllureId("12677")

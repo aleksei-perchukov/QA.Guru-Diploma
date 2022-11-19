@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
 import static tests.web.WebSteps.*;
 
+@DisplayName("WEB - Main tests")
 public class MainTests extends TestBase {
     @Test
     @AllureId("12679")
