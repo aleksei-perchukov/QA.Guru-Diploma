@@ -1,6 +1,6 @@
-package tests.api.archive;
+package tests.api.models;
 
-public class CreateUserRequestPojoModel {
+public class PutUpdateRequestPojoModel {
     private String
             name,
             job;

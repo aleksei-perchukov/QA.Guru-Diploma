@@ -15,15 +15,14 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.logevents.SelenideLogger.addListener;
 
 public class TestBase {
-
+    static String host = System.getProperty("os");
     @BeforeAll
     @Step("Start mobile driver")
     public static void setup() {
-        String host = System.getProperty("device_host");
-        if (System.getProperty("os").equals("mobile-browserstack")) {
+        if (host.equals("mobile-browserstack")) {
             Configuration.browser = BrowserstackMobileDriver.class.getName();
-        } else if (System.getProperty("os").equals("mobile-local")
-                || System.getProperty("os").equals("mobile-real")) {
+        } else if (host.equals("mobile-local")
+                || host.equals("mobile-real")) {
             Configuration.browser = LocalMobileDriver.class.getName();
         }
         Configuration.timeout = 60000;
@@ -44,7 +43,7 @@ public class TestBase {
         Attach.screenshotAs("Screenshot");
         Attach.pageSource();
         closeWebDriver();
-        if (System.getProperty("os").equals("mobile-browserstack")) {
+        if (host.equals("mobile-browserstack")) {
             Attach.videoBrowserStack(sessionId);
         }
     }

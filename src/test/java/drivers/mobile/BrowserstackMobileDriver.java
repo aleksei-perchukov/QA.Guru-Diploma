@@ -5,6 +5,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
@@ -12,6 +13,7 @@ import java.net.URL;
 
 public class BrowserstackMobileDriver implements WebDriverProvider {
     public static boolean isRemote = false;
+
     @Override
     public WebDriver createDriver(Capabilities capabilities) {
         MutableCapabilities mutableCapabilities = new MutableCapabilities();

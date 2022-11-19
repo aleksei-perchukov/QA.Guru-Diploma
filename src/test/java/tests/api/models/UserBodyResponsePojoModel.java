@@ -1,4 +1,4 @@
-package helpers.mobile.models;
+package tests.api.models;
 public class UserBodyResponsePojoModel {
     private String
             id,
@@ -49,9 +49,6 @@ public class UserBodyResponsePojoModel {
     public final void setUpdatedAt(final String updatedAt) {
         this.updatedAt = updatedAt;
     }
-
-
-
 
     public class data {
         private String id,

@@ -1,4 +1,4 @@
-package helpers.mobile.models;
+package tests.api.models;
 
 public class UserBodyRequestPojoModel {
     private String

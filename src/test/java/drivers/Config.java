@@ -3,7 +3,7 @@ package drivers;
 import io.qameta.allure.internal.shadowed.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties
-@org.aeonbits.owner.Config.Sources({"classpath:${os}.properties"})
+@org.aeonbits.owner.Config.Sources({"classpath:configs/${os}.properties"})
 public interface Config extends org.aeonbits.owner.Config {
 @Key("browserName")
     String getBrowserName();
