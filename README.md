@@ -31,11 +31,10 @@
 ## Описание
 В проекте реализованы UI, API и Mobile тесты, небольшой части функционала и приложения сайта Habr.com и сайта Reqres.in для демонстрации возможностей проекта автоматизации. Использован паттерн проектирования автотестов PageObject.
 
-## Что проверяем
-
-> - Регистрацию нового пользователя;
-> - Поиск курса;
-> - Запись на курс;
+## Что проверяем:
+- API-тесты сайта Reqres.in
+- WEB-тесты сайта Habr.com
+- Мобильное приложение Habr.com - HABAR (неофициальное)
 
 ## <img width="4%" title="Jenkins" src="img/logo/Jenkins.svg"> Запуск тестов из Jenkins (<a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack</a>  & <a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>WEB+API</a>): 
 
