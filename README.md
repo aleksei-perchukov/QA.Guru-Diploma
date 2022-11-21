@@ -34,7 +34,7 @@
 ## Что проверяем:
 - API-тесты сайта <a href=reqres.in>Reqres.in</a>
 - WEB-тесты сайта <a href=habr.com>Habr.com</a>
-- Мобильное приложение Habr.com - HABAR (неофициальное)
+- Мобильное приложение для сайта <a href=habr.com>Habr.com</a> - HABAR (неофициальное)
 
 ## <img width="4%" title="Jenkins" src="img/logo/Jenkins.svg"> Запуск тестов из Jenkins (<a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack</a>  & <a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>WEB+API</a>): 
 
