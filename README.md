@@ -14,18 +14,18 @@
 ## В проекте используются следующие технологии и инструменты:
 
 <p align="center">
-<img src="img/logo/Idea.svg" width="50" height="50"  alt="IDEA"/>
-<img src="img/logo/Java.svg" width="50" height="50"  alt="Java"/>
-<img src="img/logo/GitHub.svg" width="50" height="50"  alt="Github"/>
-<img src="img/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5"/>
-<img src="img/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/>
-<img src="img/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/>
-<img src="img/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/>
-<img src="img/logo/Allure.svg" width="50" height="50"  alt="Allure"/>
-<img src="img/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/>
-<img src="img/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/>
-<img src="img/logo/Allure.svg" width="50" height="50"  alt="Allure"/>
-<img src="img/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/>
+<img src="src/test/resources/img/logo/Idea.svg" width="50" height="50"  alt="IDEA"/>
+<img src="src/test/resources/img/logo/Java.svg" width="50" height="50"  alt="Java"/>
+<img src="src/test/resources/img/logo/GitHub.svg" width="50" height="50"  alt="Github"/>
+<img src="src/test/resources/img/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5"/>
+<img src="src/test/resources/img/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/>
+<img src="src/test/resources/img/logo/Selenide.svg" width="50" height="50"  alt="Selenide"/>
+<img src="src/test/resources/img/logo/Selenoid.svg" width="50" height="50"  alt="Selenoid"/>
+<img src="src/test/resources/img/logo/Allure.svg" width="50" height="50"  alt="Allure"/>
+<img src="src/test/resources/img/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/>
+<img src="src/test/resources/img/logo/Telegram.svg" width="50" height="50"  alt="Telegram"/>
+<img src="src/test/resources/img/logo/Allure.svg" width="50" height="50"  alt="Allure"/>
+<img src="src/test/resources/img/logo/Allure_TO.svg" width="50" height="50"  alt="Allure_TO"/>
 </p>
 
 ## Описание
@@ -36,12 +36,12 @@
 - WEB-тесты сайта <a href=habr.com>Habr.com</a>
 - Мобильное приложение для сайта <a href=habr.com>Habr.com</a> - HABAR (неофициальное)
 
-## <img width="4%" title="Jenkins" src="img/logo/Jenkins.svg"> Запуск тестов из Jenkins (<a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack</a>  & <a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>WEB+API</a>): 
+## <img width="4%" title="Jenkins" src="src/test/resources/img/logo/Jenkins.svg"> Запуск тестов из Jenkins (<a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack</a>  & <a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>WEB+API</a>): 
 
 <p>Для запуска тестов из Jenkins:
 <br>Необходимо нажать кнопку "Собрать сейчас".
 <br>
-<img src="img/screen/Jenkins-run.jpg" alt="Jenkins"/>
+<img src="src/test/resources/img/screen/Jenkins-run.jpg" alt="Jenkins"/>
 
 ## Запуск тестов из терминала
 
@@ -72,46 +72,46 @@ gradle clean mobile_test -Dos=mobile-real
 
 ## Отчеты о прохождении тестов доступны в Allure
 
-### <img width="3%" title="Allure" src="img/logo/Allure.svg"> Allure
+### <img width="3%" title="Allure" src="src/test/resources/img/logo/Allure.svg"> Allure
 
 #### Главная страница
 
-<img src="img/screen/AllureMain.jpg" alt="Allure"/>
+<img src="src/test/resources/img/screen/AllureMain.jpg" alt="Allure"/>
 
 #### Графики
 
-<img src="img/screen/AllureGraph.jpg" alt="Allure"/>
+<img src="src/test/resources/img/screen/AllureGraph.jpg" alt="Allure"/>
 
 #### Тесты
 
-<img src="img/screen/AllureTests.jpg" alt="Allure"/>
+<img src="src/test/resources/img/screen/AllureTests.jpg" alt="Allure"/>
 
-### <img width="3%" title="Telegram" src="img/logo/Telegram.svg"> Telegram
+### <img width="3%" title="Telegram" src="src/test/resources/img/logo/Telegram.svg"> Telegram
 
 Настроена отправка отчета ботом в Telegram
 
-<img src="img/screen/Bot.jpg" alt="Telegram"/>
+<img src="src/test/resources/img/screen/Bot.jpg" alt="Telegram"/>
 
 ## Видео с прогоном тестов
 
 В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 
 <p align="center">
-  <img title="Video" src="img/gif/test.gif">
+  <img title="Video" src="src/test/resources/img/gif/test.gif">
 </p>
 
 ## Проект интегрирован с Allure TestOps
-<img width="3%" title="Allure" src="img/logo/Allure_TO.svg"> 
+<img width="3%" title="Allure" src="src/test/resources/img/logo/Allure_TO.svg"> 
 
 #### Представлены тест-кейсы
 
-<img src="img/screen/TOTest.jpg" alt="TO"/>
+<img src="src/test/resources/img/screen/TOTest.jpg" alt="TO"/>
 
 #### Представлены дашборды аналитики
 
-<img src="img/screen/TODash.jpg" alt="TO"/>
+<img src="src/test/resources/img/screen/TODash.jpg" alt="TO"/>
 
 #### Представлены запуски
 
-<img src="img/screen/TOLaunch.jpg" alt="TO"/>
+<img src="src/test/resources/img/screen/TOLaunch.jpg" alt="TO"/>
 
