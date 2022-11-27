@@ -15,7 +15,7 @@ public class ConfigProvider {
         Configuration.browserSize = config.getBrowserSize();
         Configuration.baseUrl = config.getBaseUrl();
         RestAssured.baseURI = config.getBaseURI();
-        Configuration.remote = config.getRemoteUrl();
+        Configuration.remote = System.getProperty("remote_url");
         isRemote = config.getIsRemote();
 
         ChromeOptions chromeOptions = new ChromeOptions();
