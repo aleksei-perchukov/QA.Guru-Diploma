@@ -175,12 +175,12 @@ public class WebSteps {
 
     @Step("Check that \"{search}\" article is displayed")
     static void checkSearchArticleName(String search) {
-        $("[data-test-id='articleTitle']").shouldHave(text(search));
+        $(".tm-article-snippet__title.tm-article-snippet__title_h1").shouldHave(text(search));
     }
 
     @Step("Click on \"{search}\" article")
     static void clickSearchArticle() {
-        $$("[data-test-id='articleTitle']").get(0).click();
+        $(".tm-article-snippet__title.tm-article-snippet__title_h2").click();
     }
 
     @Step("Check that \"{text}\" text is written at the end of the article")
