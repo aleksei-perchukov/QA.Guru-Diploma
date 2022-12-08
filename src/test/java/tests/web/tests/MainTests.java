@@ -36,6 +36,7 @@ public class MainTests extends BaseWebTest {
     @DisplayName("Change website language to RU")
     @Tag("Settings")
     public void changeLanguageRuTest(){
+        mainPageObjects.openHomePage();
         step("Check RU language", () -> {
             mainPageObjects.clickLanguageSettingsButton();
             mainPageObjects.clickRussianInterfaceButton();
