@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'io.qameta.allure' version '2.10.0'
     id "io.freefair.lombok" version '6.0.0-m2'
+    id 'org.gradle.test-retry' version '1.0.0'
 }
 
 group 'org.example'
@@ -71,6 +72,11 @@ tasks.withType(Test) {
                 'junit.jupiter.execution.parallel.config.strategy'         : 'fixed',
                 'junit.jupiter.execution.parallel.config.fixed.parallelism': System.getProperty("threads").toInteger()
         ]
+    }
+    retry {
+        maxRetries = 5
+        maxFailures = 20
+        failOnPassedAfterRetry = true
     }
     testLogging {
         lifecycle {
