@@ -46,7 +46,7 @@ public class LocalMobileDriver implements WebDriverProvider {
     }
 
     private File getApp() {
-        String appPath = "src/test/resources/apps/Habar_1.7.0_Apkpure.apk";
+        String appPath = "src/test/resources/app/Habar_1.7.0_Apkpure.apk";
         String appUrl = "https://d-04.winudf.com/b/APK/aW8uaGFiYXJfMThfYzdhYTM0ZTQ?_fn=SGFiYXJfMS43LjBfQXBrcHVyZS5hcGs&_p=aW8uaGFiYXI%3D&download_id=1304107437865261&is_hot=false&k=e4f2671ee6e5406d684cfb8e5bc0cdab63794310";
         File app = new File(appPath);
         if (!app.exists()) {
