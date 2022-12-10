@@ -5,7 +5,7 @@ import io.qameta.allure.Step;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
-public class MenuPageObjects {
+public class Menu {
 
     @Step("Click on \"Open Habr services list\" to the right of Habr main logo")
 

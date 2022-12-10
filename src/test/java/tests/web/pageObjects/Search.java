@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class SearchPageObjects {
+public class Search {
     @Step("Click on \"Search\" button in the upper right corner")
     public void clickSearch() {
         $(".tm-header-user-menu__search").click();

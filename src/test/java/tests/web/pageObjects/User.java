@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$$;
 import static tests.web.WebTestData.login;
 import static tests.web.WebTestData.loginPassword;
 
-public class UserPageObjects {
+public class User {
     @Step("Click on Account icon at the upper right corner (Guest)")
     public void clickAccountIconGuest() {
         $$(".tm-dropdown").get(1).click();

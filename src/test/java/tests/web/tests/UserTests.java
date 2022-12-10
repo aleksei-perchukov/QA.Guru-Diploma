@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import tests.web.BaseWebTest;
-import tests.web.pageObjects.MainPageObjects;
-import tests.web.pageObjects.UserPageObjects;
+import tests.web.pageObjects.Homepage;
+import tests.web.pageObjects.User;
 
 import static tests.web.WebTestData.nickName;
 
@@ -17,17 +17,17 @@ import static tests.web.WebTestData.nickName;
 @DisplayName("WEB - User tests")
 public class UserTests extends BaseWebTest {
 
-    MainPageObjects mainPageObjects = new MainPageObjects();
-    UserPageObjects userPageObjects = new UserPageObjects();
+    Homepage homepage = new Homepage();
+    User user = new User();
 
     @Test
     @AllureId("12677")
     @DisplayName("Login aleksei.perchukov@gmail.com account")
     public void loginTest() {
-        mainPageObjects.openHomePage();
-        userPageObjects.clickAccountIconGuest();
-        userPageObjects.login();
-        userPageObjects.clickAccountIconUser();
-        userPageObjects.checkNickName(nickName);
+        homepage.openHomePage();
+        user.clickAccountIconGuest();
+        user.login();
+        user.clickAccountIconUser();
+        user.checkNickName(nickName);
     }
 }

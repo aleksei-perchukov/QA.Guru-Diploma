@@ -1,13 +1,15 @@
 package tests.web;
 
-import drivers.ConfigProvider;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import drivers.ConfigProvider;
 import helpers.Attach;
 import io.qameta.allure.Step;
 import io.qameta.allure.selenide.AllureSelenide;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class BaseWebTest {
@@ -30,7 +32,6 @@ public class BaseWebTest {
     void addAllureListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
-
 
     @AfterEach
     @Step("Adding Attachments to Allure report")

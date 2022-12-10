@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import tests.web.BaseWebTest;
-import tests.web.pageObjects.MainPageObjects;
+import tests.web.pageObjects.Homepage;
 
 import static io.qameta.allure.Allure.step;
 
@@ -15,19 +15,19 @@ import static io.qameta.allure.Allure.step;
 @Owner("allure8")
 @DisplayName("WEB - Main tests")
 public class MainTests extends BaseWebTest {
-    MainPageObjects mainPageObjects = new MainPageObjects();
+    Homepage homepage = new Homepage();
 
     @Test
     @AllureId("12679")
     @DisplayName("Change website language to EN")
     @Tag("Settings")
     public void changeLanguageEnTest() {
-        mainPageObjects.openHomePage();
+        homepage.openHomePage();
         step("Check EN language", () -> {
-            mainPageObjects.clickLanguageSettingsButton();
-            mainPageObjects.clickEnglishInterfaceButton();
-            mainPageObjects.clickSaveSettingsButton();
-            mainPageObjects.checkEnglishMenuHeader();
+            homepage.clickLanguageSettingsButton();
+            homepage.clickEnglishInterfaceButton();
+            homepage.clickSaveSettingsButton();
+            homepage.checkEnglishMenuHeader();
         });
     }
 
@@ -36,12 +36,12 @@ public class MainTests extends BaseWebTest {
     @DisplayName("Change website language to RU")
     @Tag("Settings")
     public void changeLanguageRuTest(){
-        mainPageObjects.openHomePage();
+        homepage.openHomePage();
         step("Check RU language", () -> {
-            mainPageObjects.clickLanguageSettingsButton();
-            mainPageObjects.clickRussianInterfaceButton();
-            mainPageObjects.clickSaveSettingsButton();
-            mainPageObjects.checkRussianMenuHeader();
+            homepage.clickLanguageSettingsButton();
+            homepage.clickRussianInterfaceButton();
+            homepage.clickSaveSettingsButton();
+            homepage.checkRussianMenuHeader();
         });
     }
 
@@ -49,9 +49,9 @@ public class MainTests extends BaseWebTest {
     @AllureId("12676")
     @DisplayName("Clicking on author shows posts with his articles")
     public void createUserTest() {
-        mainPageObjects.openHomePage();
-        String author = mainPageObjects.getTopAuthorName();
-        mainPageObjects.clickTopAuthor();
-        mainPageObjects.checkAllArticlesSameAuthor(author);
+        homepage.openHomePage();
+        String author = homepage.getTopAuthorName();
+        homepage.clickTopAuthor();
+        homepage.checkAllArticlesSameAuthor(author);
     }
 }

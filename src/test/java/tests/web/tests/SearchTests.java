@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import tests.web.BaseWebTest;
-import tests.web.pageObjects.MainPageObjects;
-import tests.web.pageObjects.SearchPageObjects;
+import tests.web.pageObjects.Homepage;
+import tests.web.pageObjects.Search;
 
 import static tests.web.WebTestData.searchArticle;
 import static tests.web.WebTestData.searchText;
@@ -17,25 +17,25 @@ import static tests.web.WebTestData.searchText;
 @Owner("allure8")
 @DisplayName("WEB - Search tests")
 public class SearchTests extends BaseWebTest {
-    MainPageObjects mainPageObjects = new MainPageObjects();
-    SearchPageObjects searchPageObjects = new SearchPageObjects();
+    Homepage homepage = new Homepage();
+    Search search = new Search();
 
     @Test
     @AllureId("12674")
     @DisplayName("Search article 'Tutorial: Frontity — Setting Up Authorization for WordPress Private Endpoints'")
     public void searchArticleTest() {
-        mainPageObjects.openHomePage();
-        searchPageObjects.search(searchArticle);
-        searchPageObjects.checkSearchArticleName(searchArticle);
-        searchPageObjects.checkSearchText(searchText);
+        homepage.openHomePage();
+        search.search(searchArticle);
+        search.checkSearchArticleName(searchArticle);
+        search.checkSearchText(searchText);
     }
 
     @Test
     @AllureId("12675")
     @DisplayName("Quantity of search results is 20")
     public void searchResultsQtyTest() {
-        mainPageObjects.openHomePage();
-        searchPageObjects.search("Test");
-        searchPageObjects.checkSearchArticlesQty(20);
+        homepage.openHomePage();
+        search.search("Test");
+        search.checkSearchArticlesQty(20);
     }
 }
