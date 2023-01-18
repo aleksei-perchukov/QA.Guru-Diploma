@@ -30,12 +30,12 @@
 </p>
 
 ## <b id="description">Description</b>
-In project were implemented the WEB, API and mobile tests of a small part of the functionality of Habr.com and Reqres.in websites. The PageObject autotest design pattern is used.
+In project were implemented the WEB, API and mobile tests of a small part of the functionality of "<a href="https://habr.com">Habr.com</a> and <a href="https://reqres.in">Reqres.in</a> websites. The PageObject autotest design pattern is used.
 
 ## <b id="check_mark">What do we check:</b>
-- API-tests <a href=reqres.in>Reqres.in</a>
-- WEB-tests <a href=habr.com>Habr.com</a>
-- Android mobile app of <a href=habr.com>Habr.com</a> - HABAR (Unofficial)
+- API-tests <a href="https://reqres.in">Reqres.in</a>
+- WEB-tests <a href="https://habr.com">Habr.com</a>
+- Android mobile app of <a href="https://habr.com">Habr.com</a> - HABAR (Unofficial)
 
 ## Launching tests from Jenkins (<a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack</a>  & <a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>WEB+API</a>): 
 
