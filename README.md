@@ -79,17 +79,17 @@ gradle clean mobile_test -Dos=mobile-real
 
 <img src="src/test/resources/img/screen/AllureMain.jpg" alt="Allure"/>
 
-#### Tests
+#### Tests page
 
 <img src="src/test/resources/img/screen/AllureGraph.jpg" alt="Allure"/>
 
-#### Graphics
+#### Graphics panel
 
 <img src="src/test/resources/img/screen/AllureTests.jpg" alt="Allure"/>
 
 ### <img width="3%" title="Telegram" src="src/test/resources/img/logo/Telegram.svg" id="telegram"> Telegram
 
-Configured sending a report by a bot to Telegram
+Sending a test report by a telegram bot is configured
 
 <img src="src/test/resources/img/screen/Bot.jpg" alt="Telegram"/>
 
@@ -104,7 +104,7 @@ Allure reports have not only a screenshot, but also a video of passing each test
 ## <b id="testops">Project is integrated with Allure TestOps</b>
 <img width="3%" title="Allure" src="src/test/resources/img/logo/Allure_TO.svg"> 
 
-#### Test-cases
+#### Test cases page
 
 <img src="src/test/resources/img/screen/TOTest.jpg" alt="TO"/>
 
@@ -112,7 +112,7 @@ Allure reports have not only a screenshot, but also a video of passing each test
 
 <img src="src/test/resources/img/screen/TODash.jpg" alt="TO"/>
 
-#### Launchs
+#### Launchs panel
 
 <img src="src/test/resources/img/screen/TOLaunch.jpg" alt="TO"/>
 
