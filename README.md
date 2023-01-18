@@ -95,7 +95,6 @@ Configured sending a report by a bot to Telegram
 
 ## <b id="test_video">Test execution video</b>
 
-В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
 Allure reports have not only a screenshot, but also a video of passing each test attached
 
 <p align="center">
