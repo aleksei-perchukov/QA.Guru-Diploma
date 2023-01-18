@@ -83,7 +83,7 @@ gradle clean mobile_test -Dos=mobile-real
 
 <img src="src/test/resources/img/screen/AllureGraph.jpg" alt="Allure"/>
 
-#### Graphs
+#### Graphics
 
 <img src="src/test/resources/img/screen/AllureTests.jpg" alt="Allure"/>
 
