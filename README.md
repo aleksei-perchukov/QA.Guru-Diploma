@@ -1,15 +1,15 @@
-# Проект автоматизации тестирования для <a target="_blank" href="https://habr.com/">Habr</a> и <a target="_blank" href="https://reqres.in/">Reqres.in</a>
+# Test automation project for <a target="_blank" href="https://habr.com/">Habr</a> & <a target="_blank" href="https://reqres.in/">Reqres.in</a>
 
-## Содержание:
-- [Технологии и инструменты](#gear-в-проекте-используются-следующие-технологии-и-инструменты)
-- [Что проверяем](#heavy_check_mark-что-проверяем)
-- [Запуск тестов из Jenkins](#-запуск-тестов-из-jenkins)
-- [Запуск тестов из терминала](#computer-запуск-тестов-из-терминала)
-- [Отчеты](#bar_chart-отчеты-о-прохождении-тестов-доступны-в-allure)
-- - [Allure](#-allure)
-- - [Telegram](#-telegram)
-- [Видео с прогоном тестов](#movie_camera-видео-с-прогоном-тестов)
-- [Allure TestOps](#-проект-интегрирован-с-allure-testOps)
+## Contents:
+- [Technologies and instruments](#gear)
+- [What we check](#check_mark)
+- [Launch from Jenkins](#jenkins)
+- [Launch from terminal](#terminal)
+- [Reports](#reports)
+- - [Allure](#allure)
+- - [Telegram notifications](#telegram)
+- [Test execution video](#test_video)
+- [Allure TestOps](#testops)
 
 ## В проекте используются следующие технологии и инструменты:
 
@@ -31,7 +31,7 @@
 ## Описание
 В проекте реализованы UI, API и Mobile тесты, небольшой части функционала и приложения сайта Habr.com и сайта Reqres.in для демонстрации возможностей проекта автоматизации. Использован паттерн проектирования автотестов PageObject.
 
-## Что проверяем:
+## <b id="#check_mark">Что проверяем:</b>
 - API-тесты сайта <a href=reqres.in>Reqres.in</a>
 - WEB-тесты сайта <a href=habr.com>Habr.com</a>
 - Мобильное приложение для сайта <a href=habr.com>Habr.com</a> - HABAR (неофициальное)
