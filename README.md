@@ -39,7 +39,7 @@ In project were implemented the WEB, API and mobile tests of a small part of the
 
 ## Launching tests from Jenkins (<a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Browserstack/>Browserstack</a>  & <a href=https://jenkins.autotests.cloud/job/aleksei-perchukov-Diploma-Desktop/>WEB+API</a>): 
 
-<p><img width="4%" title="Jenkins" src="src/test/resources/img/logo/Jenkins.svg"><b id="jenkins">For launching from Jenkins:</b>
+<p><b id="jenkins">For launching from Jenkins:</b>
 <br>Click "Собрать сейчас" button.
 <br>
 <img src="src/test/resources/img/screen/Jenkins-run.jpg" alt="Jenkins"/>
