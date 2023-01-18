@@ -32,7 +32,7 @@
 ## <b id="description">Description</b>
 In project were implemented the WEB, API and mobile tests of a small part of the functionality of Habr.com and Reqres.in websites. The PageObject autotest design pattern is used.
 
-## <b id="check_mark">Что проверяем:</b>
+## <b id="check_mark">What do we check:</b>
 - API-tests <a href=reqres.in>Reqres.in</a>
 - WEB-tests <a href=habr.com>Habr.com</a>
 - Android mobile app of <a href=habr.com>Habr.com</a> - HABAR (Unofficial)
@@ -79,11 +79,11 @@ gradle clean mobile_test -Dos=mobile-real
 
 <img src="src/test/resources/img/screen/AllureMain.jpg" alt="Allure"/>
 
-#### Graphics
+#### Tests
 
 <img src="src/test/resources/img/screen/AllureGraph.jpg" alt="Allure"/>
 
-#### Tests
+#### Graphs
 
 <img src="src/test/resources/img/screen/AllureTests.jpg" alt="Allure"/>
 
