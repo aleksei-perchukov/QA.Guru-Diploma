@@ -31,7 +31,7 @@
 ## Описание
 В проекте реализованы UI, API и Mobile тесты, небольшой части функционала и приложения сайта Habr.com и сайта Reqres.in для демонстрации возможностей проекта автоматизации. Использован паттерн проектирования автотестов PageObject.
 
-## <a href="https://github.com/aleksei-perchukov/Diploma#check_mark">Что проверяем:</b>
+## <b id="check_mark">Что проверяем:</b>
 - API-тесты сайта <a href=reqres.in>Reqres.in</a>
 - WEB-тесты сайта <a href=habr.com>Habr.com</a>
 - Мобильное приложение для сайта <a href=habr.com>Habr.com</a> - HABAR (неофициальное)
